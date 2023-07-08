@@ -11,7 +11,7 @@ namespace DesignPattern.CQRS.DAL
             
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=DESKTOP-R7AR1ND;initial catalog=DesignPattern2;integrated security=true;");
+            optionsBuilder.UseSqlServer("server=DESKTOP-D6N7I1U;initial catalog=DesignPattern2;integrated security=true;");
         }
         public DbSet<Product> Products { get; set; }
     }
